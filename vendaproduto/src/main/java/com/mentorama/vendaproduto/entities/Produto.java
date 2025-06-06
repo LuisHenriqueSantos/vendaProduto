@@ -10,7 +10,12 @@ public class Produto {
     
     public Produto(){}
     
-    public Produto(Integer id, String nomeProduto, Integer quantidadeProduto, Double valorProduto,Double descontoMaximoPermitido){
+    public Produto(Integer id, 
+                   String nomeProduto, 
+                   Integer quantidadeProduto, 
+                   Double valorProduto,
+                   Double descontoMaximoPermitido){
+        
         this.id = id;
         this.nomeProduto = nomeProduto;
         this.quantidadeProduto = quantidadeProduto;
